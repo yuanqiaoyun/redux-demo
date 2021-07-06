@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import  Epone  from './mbx/Epone';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>随便喽.js</code> and save to reload.
@@ -17,7 +17,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Epone></Epone>
     </div>
   );
 }
